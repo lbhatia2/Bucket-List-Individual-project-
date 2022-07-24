@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct SwiftUIViewTV: View {
+    @State private var item1TVTextField = ""
+    @State private var item2TVTextField = ""
+    @State private var item3TVTextField = ""
+    @State private var item4TVTextField = ""
+    @State private var item5TVTextField = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("  Movies/TV  ")
+            .font(.title)
+            .padding()
+            .background(RoundedRectangle(cornerRadius: 10).fill(.pink))
+        VStack{
+            CustomTextField(placeholder: "Item 1", variable: $item1TVTextField)
+            CustomTextField(placeholder: "Item 2", variable: $item2TVTextField)
+            CustomTextField(placeholder: "Item 3", variable: $item3TVTextField)
+            CustomTextField(placeholder: "Item 4", variable: $item4TVTextField)
+            CustomTextField(placeholder: "Item 5", variable: $item5TVTextField)
+            
+            
+        }
     }
 }
 

@@ -9,10 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+
         Text("Bucket List")
             .font(.title)
             .padding()
             .background(RoundedRectangle(cornerRadius: 10).fill(.yellow))
+        
         Spacer()
         VStack{
             Text("Travel")

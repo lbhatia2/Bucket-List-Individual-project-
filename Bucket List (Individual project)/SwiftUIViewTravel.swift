@@ -8,8 +8,25 @@
 import SwiftUI
 
 struct SwiftUIViewTravel: View {
+    @State private var item1TTextField = ""
+    @State private var item2TTextField = ""
+    @State private var item3TTextField = ""
+    @State private var item4TTextField = ""
+    @State private var item5TTextField = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("  Travel  ")
+            .font(.title)
+            .padding()
+            .background(RoundedRectangle(cornerRadius: 10).fill(.green))
+        VStack{
+            CustomTextField(placeholder: "Item 1", variable: $item1TTextField)
+            CustomTextField(placeholder: "Item 2", variable: $item2TTextField)
+            CustomTextField(placeholder: "Item 3", variable: $item3TTextField)
+            CustomTextField(placeholder: "Item 4", variable: $item4TTextField)
+            CustomTextField(placeholder: "Item 5", variable: $item5TTextField)
+            
+            
+        }
     }
 }
 
