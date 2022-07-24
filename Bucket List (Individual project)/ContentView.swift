@@ -9,9 +9,39 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Bucket List")
+            .font(.title)
             .padding()
+            .background(RoundedRectangle(cornerRadius: 10).fill(.yellow))
+        Spacer()
+        VStack{
+            Text("Travel")
+                .font(.body)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10).fill(.blue))
+            Text("Food")
+                .font(.body)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10).fill(.red))
+            Text("Movies/TV")
+                .font(.body)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10).fill(.purple))
+            Text("Summer")
+                .font(.body)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10).fill(.pink))
+            Text("Education")
+                .font(.body)
+                .padding()
+                .background(RoundedRectangle(cornerRadius: 10).fill(.green))
+            
+        }
+        
+        
     }
+    
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
