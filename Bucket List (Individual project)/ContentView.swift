@@ -11,42 +11,70 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
-
-        Text("Bucket List")
-        
-            .font(.title)
-            .padding()
-            .background(RoundedRectangle(cornerRadius: 10).fill(.yellow))
-        
-        Spacer()
-            NavigationLink(destination: {
-            SwiftUIViewTravel()
-            }, label: {
-                Text("Travel")
-                    .foregroundColor(.white)
+                
+                Text("Bucket List")
+                    .font(.title)
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: 10).fill(.yellow))
+                
+                Spacer()
+                NavigationLink(destination: {
+                    SwiftUIViewTravel()
+                }, label: {
+                    Text("Travel")
+                        .foregroundColor(.white)
                         .font(.body)
                         .padding()
                         .background(RoundedRectangle(cornerRadius: 10).fill(.blue))
+                    
+                })
+                NavigationLink(destination: {
+                    SwiftUIViewEduacation()
+                }, label: {
+                    Text("Eduacation")
+                        .foregroundColor(.white)
+                        .font(.body)
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 10).fill(.green))
+                })
                 
-            })
-            Text("Food")
-                .font(.body)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).fill(.red))
-            Text("Movies/TV")
-                .font(.body)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).fill(.purple))
-            Text("Summer")
-                .font(.body)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).fill(.pink))
-            Text("Education")
-                .font(.body)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).fill(.green))
-            
-        }
+                NavigationLink(destination: {
+                    SwiftUIViewSummer()
+                }, label: {
+                    Text("Summer")
+                        .foregroundColor(.white)
+                        .font(.body)
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 10).fill(.pink))
+                    
+                })
+                
+                NavigationLink(destination: {
+                SwiftUIViewTV()
+                }, label: {
+                    Text("TV")
+                        .foregroundColor(.white)
+                            .font(.body)
+                            .padding()
+                            .background(RoundedRectangle(cornerRadius: 10).fill(.purple))
+                    
+                })
+                
+                NavigationLink(destination: {
+                SwiftUIViewFood()
+                }, label: {
+                    Text("Food")
+                        .foregroundColor(.white)
+                            .font(.body)
+                            .padding()
+                            .background(RoundedRectangle(cornerRadius: 10).fill(.red))
+                    
+                })
+                
+               
+                
+                
+            }
         }
         
         
