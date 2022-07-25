@@ -9,18 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView{
+            VStack{
 
         Text("Bucket List")
+        
             .font(.title)
             .padding()
             .background(RoundedRectangle(cornerRadius: 10).fill(.yellow))
         
         Spacer()
-        VStack{
-            Text("Travel")
-                .font(.body)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).fill(.blue))
+            NavigationLink(destination: {
+            SwiftUIViewTravel()
+            }, label: {
+                Text("Travel")
+                    .foregroundColor(.white)
+                        .font(.body)
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 10).fill(.blue))
+                
+            })
             Text("Food")
                 .font(.body)
                 .padding()
@@ -38,6 +46,7 @@ struct ContentView: View {
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 10).fill(.green))
             
+        }
         }
         
         
