@@ -15,7 +15,7 @@
 		10B1C11E288CE06100E6FA77 /* SwiftUIViewFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1C11D288CE06100E6FA77 /* SwiftUIViewFood.swift */; };
 		10B1C120288CE07A00E6FA77 /* SwiftUIViewTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1C11F288CE07A00E6FA77 /* SwiftUIViewTV.swift */; };
 		10B1C122288CE08900E6FA77 /* SwiftUIViewSummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1C121288CE08900E6FA77 /* SwiftUIViewSummer.swift */; };
-		10B1C124288CE09900E6FA77 /* SwiftUIViewEduacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B1C123288CE09900E6FA77 /* SwiftUIViewEduacation.swift */; };
+		B05A6F5528931EA300537134 /* SwiftUIViewEduacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A6F5428931EA300537134 /* SwiftUIViewEduacation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		10B1C11D288CE06100E6FA77 /* SwiftUIViewFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewFood.swift; sourceTree = "<group>"; };
 		10B1C11F288CE07A00E6FA77 /* SwiftUIViewTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTV.swift; sourceTree = "<group>"; };
 		10B1C121288CE08900E6FA77 /* SwiftUIViewSummer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSummer.swift; sourceTree = "<group>"; };
-		10B1C123288CE09900E6FA77 /* SwiftUIViewEduacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewEduacation.swift; sourceTree = "<group>"; };
+		B05A6F5428931EA300537134 /* SwiftUIViewEduacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewEduacation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 			children = (
 				10B1C10D288B307200E6FA77 /* Bucket_List__Individual_project_App.swift */,
 				10B1C10F288B307200E6FA77 /* ContentView.swift */,
-				10B1C123288CE09900E6FA77 /* SwiftUIViewEduacation.swift */,
+				B05A6F5428931EA300537134 /* SwiftUIViewEduacation.swift */,
 				10B1C121288CE08900E6FA77 /* SwiftUIViewSummer.swift */,
 				10B1C11F288CE07A00E6FA77 /* SwiftUIViewTV.swift */,
 				10B1C11D288CE06100E6FA77 /* SwiftUIViewFood.swift */,
@@ -158,7 +158,7 @@
 				10B1C11E288CE06100E6FA77 /* SwiftUIViewFood.swift in Sources */,
 				10B1C11C288CE04A00E6FA77 /* SwiftUIViewTravel.swift in Sources */,
 				10B1C120288CE07A00E6FA77 /* SwiftUIViewTV.swift in Sources */,
-				10B1C124288CE09900E6FA77 /* SwiftUIViewEduacation.swift in Sources */,
+				B05A6F5528931EA300537134 /* SwiftUIViewEduacation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
